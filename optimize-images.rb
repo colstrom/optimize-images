@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# Image Optimization Script, by Chris Olstrom <chris@olstrom.com>
 
 dir = ARGV[0] ||= `pwd`.strip # Use a path if one is given, otherwise assume current directory.
 
